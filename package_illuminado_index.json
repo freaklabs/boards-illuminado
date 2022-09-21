@@ -5,7 +5,7 @@
       "maintainer": "Zoot Creations",
       "websiteURL": "https://illuminado.org",
       "email": "support@illuminado.org",
-      "platforms": [
+      "platforms": 
         {
           "name": "Zoot Illuminado",
           "architecture": "avr",
@@ -21,7 +21,6 @@
               {"name": "Illuminado Transmitter"}
           ]
         },
-      ],
       "toolsDependencies": [
         {
           "packager": "arduino",
