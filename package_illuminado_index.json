@@ -1,29 +1,30 @@
 {
   "packages": [
     {
-      "name": "Zoot Illuminado",
-      "maintainer": "Zoot Creations",
-      "websiteURL": "https://illuminado.org",
-      "email": "contact@illuminado.org",
+      "name": "Freaklabs Wildlife",
+      "maintainer": "Freaklabs",
+      "websiteURL": "https://freaklabs.org",
+      "email": "support@freaklabsstore.com",
       "help": {
-        "online": "https://illuminado.org/"
+        "online": "https://freaklabs.org/"
       },
-      "platforms": 
+      "platforms": [
         {
-          "name": "Zoot Illuminado Boards",
+          "name": "Freaklabs Wildlife Boards",
           "architecture": "avr",
-          "version": "1.0.0",
-          "category": "Illuminado",
-          "url": "https://raw.githubusercontent.com/freaklabs/boards-illuminado/master/boards/boards-illuminado-v1.0.0.zip",
-          "archiveFileName": "boards-illuminado-v1.0.0.zip",
-          "checksum": "SHA-256:2463cfef7e27f9edabe4984ac765bda00fc4cd04dd93afe6a99b8e92b3496f41",
-          "size": "99801",
+          "version": "1.0.1",
+          "category": "Freaklabs",
+          "url": "https://github.com/freaklabs/freaklabs-wildlife-boards/raw/master/boards/freaklabs-wildlife-1.0.1.zip",
+          "archiveFileName": "freaklabs-wildlife-1.0.1.zip",
+          "checksum": "SHA-256:f1861d8065de97f15f417fed36dff0c0d8bd6d07d84f90454acdd41aeeddfb2f",
+          "size": "702167",
           "boards": [
-              {"name": "Illuminado EL Wire Receiver"}, 
-              {"name": "Illuminado EL Wire Receiver v1.3B"}, 
-              {"name": "Illuminado EL Wire Transmitter"}
-          ],
+              {"name": "FreakLabs WildLogger v1.x"}, 
+              {"name": "FreakLabs Wilduino Standard v1.x"}, 
+              {"name": "FreakLabs Wilduino Deluxe v1.x"}
+          ]
         },
+      ],
       "toolsDependencies": [
         {
           "packager": "arduino",
