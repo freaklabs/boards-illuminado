@@ -11,7 +11,7 @@
           "architecture": "avr",
           "version": "1.0.0",
           "category": "Illuminado",
-          "url": "https://github.com/freaklabs/boards-illuminado/raw/master/boards/boards-illuminado-v1.0.0.zip",
+          "url": "https://raw.githubusercontent.com/freaklabs/boards-illuminado/master/boards/boards-illuminado-v1.0.0.zip",
           "archiveFileName": "boards-illuminado-v1.0.0.zip",
           "checksum": "SHA-256:2463cfef7e27f9edabe4984ac765bda00fc4cd04dd93afe6a99b8e92b3496f41",
           "size": "99801",
