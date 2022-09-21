@@ -8,12 +8,12 @@
       "help": {
         "online": "https://illuminado.org/"
       },
-      "platforms": [
+      "platforms": 
         {
           "name": "Zoot Illuminado Boards",
           "architecture": "avr",
           "version": "1.0.0",
-          "category": "Freaklabs",
+          "category": "Illuminado",
           "url": "https://raw.githubusercontent.com/freaklabs/boards-illuminado/master/boards/boards-illuminado-v1.0.0.zip",
           "archiveFileName": "boards-illuminado-v1.0.0.zip",
           "checksum": "SHA-256:2463cfef7e27f9edabe4984ac765bda00fc4cd04dd93afe6a99b8e92b3496f41",
@@ -22,9 +22,8 @@
               {"name": "Illuminado EL Wire Receiver"}, 
               {"name": "Illuminado EL Wire Receiver v1.3B"}, 
               {"name": "Illuminado EL Wire Transmitter"}
-          ]
+          ],
         },
-      ],
       "toolsDependencies": [
         {
           "packager": "arduino",
