@@ -8,7 +8,7 @@
       "help": {
         "online": "https://illuminado.org/"
       },
-      "platforms": [
+      "platforms": 
         {
           "name": "Zoot Illuminado Boards",
           "architecture": "avr",
@@ -24,7 +24,6 @@
               {"name": "Illuminado EL Wire Transmitter"}
           ]
         },
-      ],
       "toolsDependencies": [
         {
           "packager": "arduino",
