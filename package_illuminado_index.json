@@ -1,95 +1,26 @@
 {
   "packages": [
     {
-      "name": "Freaklabs Wildlife",
-      "maintainer": "Freaklabs",
-      "websiteURL": "https://freaklabs.org",
-      "email": "support@freaklabsstore.com",
-      "help": {
-        "online": "https://freaklabs.org/"
-      },
+      "name": "Zoot Illuminado",
+      "maintainer": "Zoot Creations",
+      "websiteURL": "https://illuminado.org",
+      "email": "support@illuminado.org",
       "platforms": [
         {
-          "name": "Freaklabs Wildlife Boards",
+          "name": "Zoot Illuminado",
           "architecture": "avr",
-          "version": "1.0.1",
-          "category": "Freaklabs",
-          "url": "https://github.com/freaklabs/freaklabs-wildlife-boards/raw/master/boards/freaklabs-wildlife-1.0.1.zip",
-          "archiveFileName": "freaklabs-wildlife-1.0.1.zip",
-          "checksum": "SHA-256:f1861d8065de97f15f417fed36dff0c0d8bd6d07d84f90454acdd41aeeddfb2f",
-          "size": "702167",
+          "version": "1.0.0",
+          "category": "Illuminado",
+          "url": "https://github.com/freaklabs/boards-illuminado/raw/master/boards/boards-illuminado-v1.0.0.zip",
+          "archiveFileName": "boards-illuminado-v1.0.0.zip",
+          "checksum": "SHA-256:2463cfef7e27f9edabe4984ac765bda00fc4cd04dd93afe6a99b8e92b3496f41",
+          "size": "99801",
           "boards": [
-              {"name": "FreakLabs WildLogger v1.x"}, 
-              {"name": "FreakLabs Wilduino Standard v1.x"}, 
-              {"name": "FreakLabs Wilduino Deluxe v1.x"}
+              {"name": "Illuminado Receiver"}, 
+              {"name": "Illuminado Receiver v1.3B"}, 
+              {"name": "Illuminado Transmitter"}
           ]
         },
-        {
-          "name": "Freaklabs Wildlife Boards",
-          "architecture": "avr",
-          "version": "1.0.2",
-          "category": "Freaklabs",
-          "url": "https://github.com/freaklabs/freaklabs-wildlife-boards/raw/master/boards/freaklabs-wildlife-1.0.2.zip",
-          "archiveFileName": "freaklabs-wildlife-1.0.2.zip",
-          "checksum": "SHA-256:fbb9bb01c76ea6510279709cbc4f237fae25f9a8085adaff4bd3c550d067a5f8",
-          "size": "702206",
-          "boards": [
-              {"name": "FreakLabs WildLogger v1.x"}, 
-              {"name": "FreakLabs Wilduino Standard v1.x"}, 
-              {"name": "FreakLabs Wilduino Deluxe v1.x"}
-          ]
-        },
-        {
-          "name": "Freaklabs Wildlife Boards",
-          "architecture": "avr",
-          "version": "1.0.3",
-          "category": "Freaklabs",
-          "url": "https://github.com/freaklabs/freaklabs-wildlife-boards/raw/master/boards/freaklabs-wildlife-1.0.3.zip",
-          "archiveFileName": "freaklabs-wildlife-1.0.3.zip",
-          "checksum": "SHA-256:35a721666136ae3614f9199a3f9e78a8fcaeb95e44e1e8483bca428c283c43af",
-          "size": "712001",
-          "boards": [
-              {"name": "FreakLabs WildLogger v1.x"}, 
-              {"name": "FreakLabs Wilduino Standard v1.x"}, 
-              {"name": "FreakLabs Wilduino Deluxe v1.x"},
-              {"name": "FreakLabs Boombox"}
-          ]
-        },
-        {
-          "name": "Freaklabs Wildlife Boards",
-          "architecture": "avr",
-          "version": "1.0.4",
-          "category": "Freaklabs",
-          "url": "https://github.com/freaklabs/freaklabs-wildlife-boards/raw/master/boards/freaklabs-wildlife-1.0.4.zip",
-          "archiveFileName": "freaklabs-wildlife-1.0.4.zip",
-          "checksum": "SHA-256:71f0223f73511d4398f80f45332b66a8f7cf31862bc07dc02150459cee70c271",
-          "size": "664954",
-          "boards": [
-              {"name": "FreakLabs WildLogger v1.x"}, 
-              {"name": "FreakLabs Wilduino Standard v1.x"}, 
-              {"name": "FreakLabs Wilduino Deluxe v1.x"},
-              {"name": "FreakLabs Boombox"},
-              {"name": "FreakLabs Baseliner"}
-          ]
-        },
-        {
-          "name": "Freaklabs Wildlife Boards",
-          "architecture": "avr",
-          "version": "1.0.5",
-          "category": "Freaklabs",
-          "url": "https://github.com/freaklabs/freaklabs-wildlife-boards/raw/master/boards/freaklabs-wildlife-1.0.5.zip",
-          "archiveFileName": "freaklabs-wildlife-1.0.5.zip",
-          "checksum": "SHA-256:8e8d2771fa1b60c968850175bbaeed5c1997da07b04b6e3cb6a6c0a04072e561",
-          "size": "666922",
-          "boards": [
-              {"name": "FreakLabs WildLogger v1.x"}, 
-              {"name": "FreakLabs Wilduino Standard v1.x"}, 
-              {"name": "FreakLabs Wilduino Deluxe v1.x"},
-              {"name": "FreakLabs Boombox"},
-              {"name": "FreakLabs Baseliner"},
-              {"name": "FreakLabs Soily"}
-          ]
-        }
       ],
       "toolsDependencies": [
         {
