@@ -1,0 +1,44 @@
+{
+  "packages": [
+    {
+      "name": "Zoot Illuminado",
+      "maintainer": "Zoot Creations",
+      "websiteURL": "https://illuminado.org",
+      "email": "contact@illuminado.org",
+      "help": {
+        "online": "https://illuminado.org/"
+      },
+      "platforms": [
+        {
+          "name": "Zoot Illuminado Boards",
+          "architecture": "avr",
+          "version": "1.0.0",
+          "category": "Freaklabs",
+          "url": "https://github.com/freaklabs/boards-illuminado/raw/master/boards/boards-illuminado-v1.0.0.zip",
+          "archiveFileName": "boards-illuminado-v1.0.0.zip",
+          "checksum": "SHA-256:2463cfef7e27f9edabe4984ac765bda00fc4cd04dd93afe6a99b8e92b3496f41",
+          "size": "99801",
+          "boards": [
+              {"name": "Illuminado EL Wire Receiver"}, 
+              {"name": "Illuminado EL Wire Receiver v1.3B"}, 
+              {"name": "Illuminado EL Wire Transmitter"}
+          ]
+        },
+       
+      ],
+      "toolsDependencies": [
+        {
+          "packager": "arduino",
+          "name": "avr-gcc",
+          "version": "4.8.1-arduino5"
+        },
+        {
+          "packager": "arduino",
+          "name": "avrdude",
+          "version": "6.0.1-arduino5"
+        }
+      ],
+      "tools": []
+    }
+  ]
+}
